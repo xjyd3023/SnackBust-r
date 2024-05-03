@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack Bust'r</title>
+    <link rel="stylesheet" type = "text/css" href="Snackbustr.css">
+
+    
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://fonts.cdnfonts.com/css/spongebob-font-condensed" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sen:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<style>
+
+    .search-container {
+        display: inline-block;
+        vertical-align: middle; 
+    }
+
+    #search-bar {
+        padding: 8px;
+        width: 300px;
+        border: 2px solid #aaa;
+        border-radius: 5px;
+        align-items: end;
+    }
+
+    #search-button {
+        padding: 8px 15px;
+        background-color: rgb(247, 247, 214);
+        color: navy;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        align-items: end;
+    }
+
+    #search-button:hover {
+        background-color: rgb(245, 245, 192);
+    }
+</style>
+
+<body>
+    <header>
+        <a href="SnackBust_r.html" class="logo"> <img src="sb.png"> </a>
+        <div class="bx bx-menu" id="menu-icon"> </div>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Foodmenu.html">Menu</a></li>
+            <li><a href="https://www.facebook.com/messages/t/61559060341158">Order Here</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search for snacks...">
+        <button id="search-button">Search</button>
+        </div>
+
+    </header>
+
+    <section class="menu" id="menu">
+     <div class="heading">
+            <span>Food Menu</span>
+            <h2>Fresh taste and great price</h2>
+    </div>
+        <div class="menu-container">
+            <div class="box">
+                <div class="box-img">
+                    <h2>French Fries</h2>
+                    <img src="fries.png">
+                </div>
+                <br>
+                <h3>Sizes:</h3>
+            <ul class="sizes">
+                <li class="size">• Small - ₱25.00</li>
+                <li class="size">• Medium - ₱40.00</li>
+                <li class="size">• Large - ₱60.00</li>
+            </ul>
+            <br>
+            <h3>Available Flavors:</h3>
+            <ul class="flavors">
+                <li class="flavor">• Cheese</li>
+                <li class="flavor">• Barbeque</li>
+                <li class="flavor">• Sour cream</li>
+            </ul>
+            </div>  
+            <div class="box">
+                <div class="box-img">
+                    <h2>Waffles</h2>
+                    <img src="waffle.png">
+                </div>
+                <br>
+            
+            <h3>Available Flavors:</h3>
+            <ul class="flavors">
+                <li class="flavor">• Plain - ₱30.00</li>
+                <li class="flavor">• Cheese - ₱35.00</li>
+                <li class="flavor">• Tuna - ₱40.00</li>
+                <li class="flavor">• Cream-O - ₱40.00</li>
+                <li class="flavor">• Chocolate - ₱40.00</li>
+                <li class="flavor">• Cinnamon - ₱40.00</li>
+                <li class="flavor">• Melted Cheese - ₱40.00</li>
+                <li class="flavor">• Double Cheese - ₱50.00</li>
+            </ul>
+            </div>  
+            <div class="box">
+                <div class="box-img">
+                    <h2>Cheese Stick</h2>
+                    <img src="css.png">
+                </div>
+                <br>
+                <h3>Sizes:</h3>
+            <ul class="sizes">
+                <li class="size">• Small - ₱25.00</li>
+                <li class="size">• Medium - ₱40.00</li>
+                <li class="size">• Large - ₱60.00</li>
+            </ul>
+            <br>
+            <h3>Available Flavors:</h3>
+            <ul class="flavors">
+                <li class="flavor">• Cheese</li>
+                <li class="flavor">• Barbeque</li>
+                <li class="flavor">• Sour cream</li>
+            </ul>
+            </div>  
+            <div class="box">
+                <div class="box-img">
+                    <h2>Bites</h2>
+                    <img src="bites.png">
+                </div>
+                <br>
+            
+            <h3>Available Now:</h3>
+            <ul class="flavors">
+                <li class="flavor">• 25 pcs - Fishball - ₱20.00</li>
+                <li class="flavor">• 8 pcs - Kikiam - ₱20.00</li>
+                <li class="flavor">• 8 pcs - Squidball - ₱20.00</li>
+                <li class="flavor">• 8 pcs - Chicksball - ₱20.00</li>
+                <li class="flavor">• 4 pcs - Siomai - ₱20.00</li>
+                <li class="flavor">• Assorted Mix - ₱100.00</li>
+            </ul>
+            </div>  
+            <div class="box">
+                <div class="box-img">
+                    <h2>Flying Saucer</h2>
+                    <img src="fssw.png">
+                </div>
+                <br>
+            
+            <h3>Available Now:</h3>
+            <ul class="flavors">
+                <li class="flavor">• Cheese - ₱30.00</li>
+                <li class="flavor">• Cheese Wiz - ₱36.00</li>
+                <li class="flavor">• CheeseMayo - ₱30.00</li>
+                <li class="flavor">• Peanut Butter - ₱30.00</li>
+                <li class="flavor">• Coco Jam - ₱30.00</li>
+                <li class="flavor">• Tuna Spread - ₱50.00</li>
+            </ul>
+            </div>  
+            <div class="box">
+                <div class="box-img">
+                    <h2>Burger</h2>
+                    <img src="burger.png">
+                </div>
+                <br>
+            
+            <h3>Available Now:</h3>
+            <ul class="flavors">
+                <li class="flavor">• Cheese Brg. - ₱35.00</li>
+                <li class="flavor">• Veggie Brg. - ₱35.00</li>
+                <li class="flavor">• Combi Brg. - ₱40.00</li>
+                <li class="flavor">• Egg Swch. - ₱30.00</li>
+                <li class="flavor">• Dble.Patty - ₱50.00</li>
+                <li class="flavor">• Supreme - ₱100.00</li>
+            </ul>
+            </div>  
+            <div class="box">
+                <div class="box-img">
+                    <h2>Half-Long</h2>
+                    <img src="footlong.png">
+                </div>
+                <br>
+            
+                <h3>Sizes:</h3>
+                <ul class="sizes">
+                    <li class="size">• Regular - ₱30.00</li>
+                    <li class="size">• Veggie - ₱40.00</li>
+                    <li class="size">• Overload - ₱70.00</li>
+                </ul>
+            </div>  
+            
+            <div class="box">
+                <div class="box-img">
+                    <h2>Nachos</h2>
+                    <img src="nachos.png">
+                </div>
+                <br>
+            
+                <h3>Available Flavors:</h3>
+            <ul class="flavors">
+                <li class="flavor">• Regular - ₱35.00</li>
+                <li class="flavor">• Cheese - ₱35.00</li>
+                <li class="flavor">• Barbeque - ₱35.00</li>
+            </ul>
+            </div>  
+
+            <div class="box">
+                <div class="box-img">
+                    <h2>Mango Overload</h2>
+                    <img src="mgraham.png">
+                </div>
+                <br>
+            
+                <h3>Sizes:</h3>
+                <ul class="sizes">
+                    <li class="size">• Small - ₱80.00</li>
+                    <li class="size">• Medium - ₱100.00</li>
+                    <li class="size">• Large - ₱130.00</li>
+                </ul>
+            </div>  
+        </div>   
+        <div class="menu-cont"> 
+            <div class="box">
+                <div class="box-img">
+                    <h2>Fruit Juice</h2>
+                    <img src="juice.png">
+                </div>
+                    <br>
+                    <h3>Sizes:</h3>
+                    <ul class="sizes">
+                        <li class="size">• Small - ₱50.00</li>
+                        <li class="size">• Medium - ₱60.00</li>
+                        <li class="size">• Large - ₱75.00</li>
+                    </ul>
+                    <br>
+                    <h3>Available Flavors:</h3>
+                    <ul class="flavors">
+                        <li class="flavor">• Orange</li>
+                        <li class="flavor">• Pineapple</li>
+                        <li class="flavor">• Mango</li>
+                        <li class="flavor">• Banana</li>
+                        <li class="flavor">• Dragon Fruit</li>
+                        <li class="flavor">• Avocado</li>
+                    </ul>
+            </div>
+            
+            <div class="box">
+                    <div class="box-img">
+                        <h2>Shakes</h2>
+                        <img src="shake.png">
+                    </div>
+                        <br>
+                        <h3>Sizes:</h3>
+                    <ul class="sizes">
+                        <li class="size">• Small - ₱40.00</li>
+                        <li class="size">• Medium - ₱50.00</li>
+                        <li class="size">• Large - ₱65.00</li>
+                    </ul>
+                    <br>
+                    <h3>Available Flavors:</h3>
+                    <ul class="flavorss">
+                        <li class="flavor">• Black Forest</li>
+                        <li class="flavor">• Double Dutch</li>
+                        <li class="flavor">• Cookies & Cream</li>
+                        <li class="flavor">• Choco Mousse</li>
+                        <li class="flavor">• Choco Kisses</li>
+                        <li class="flavor">• Cappuccino</li>
+                        <li class="flavor">• Melon<li>
+                        <li class="flavor">• Leche Flan</li>
+                    </ul>
+            </div>
+        </div>
+    </section>
+    <section class="cta" id="cta">
+        <h2>We make quality food everyday.</h2>
+        <a href="https://www.facebook.com/messages/t/61559060341158" class="button">Order Here</a>
+    </section>
+    <footer>
+        <section id="contact">
+            <div class="footer">
+                <div class="main">
+                    <div class="col">
+                        <h4>Information</h4>
+                        <ul>
+                            <li><a href="About.html">About Us</a></li>
+                            <li><a href="Privacy.html">Privacy Policy</a></li>
+                            <li><a href="TaC.html">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col">
+                        <h4>Contact Us</h4>
+                        <div class="social">
+                            <a href="https://www.facebook.com/profile.php?id=61559060341158&mibextid=ZbWKwL"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="https://www.facebook.com/messages/t/61559060341158"><i class='bx bxl-messenger'></i></a>
+                            <a href="https://www.tiktok.com/@wegotusnackingallday?_t=8lwoMCs1wn1&_r=1"><i class='bx bxl-tiktok'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <h4>Visit Us</h4>
+                        <div class="social">
+                            <a href="https://maps.app.goo.gl/mrLbSfC7gt2KCKMY6"><i class='bx bxs-been-here'></i></a>
+                            <p>Snack Bust'r</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    var searchBar = document.getElementById("search-bar");
+    var searchButton = document.getElementById("search-button");
+    var menu = document.getElementById("menu");
+    var menuItems = document.querySelectorAll(".box");
+    var menuHeading = document.querySelector(".heading");
+
+    function performSearch() {
+        var query = searchBar.value.trim().toLowerCase();
+        if (query !== "") {
+            var matchFound = false;
+            menuItems.forEach(function(item) {
+                var itemName = item.textContent.toLowerCase();
+                if (itemName.includes(query)) {
+                    matchFound = true;
+                    menu.insertBefore(item, menu.firstChild); 
+                    item.style.display = "block"; 
+                } else {
+                    item.style.display = "none"; 
+                }
+            });
+            if (matchFound) {
+                menuHeading.style.display = "none";
+            } else {
+                menuHeading.style.display = "block";
+            }
+        } else {
+            menuItems.forEach(function(item) {
+                item.style.display = "block";
+                menu.appendChild(item); 
+            });
+            menuHeading.style.display = "block";
+        }
+    }
+
+    searchButton.addEventListener("click", performSearch);
+
+    searchBar.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            performSearch();
+        }
+    });
+});
+    </script>
+    <script type="text/javascript" src="script.js">
+    </script>
+    </body>
+    </html>
